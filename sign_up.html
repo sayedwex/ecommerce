@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/xzoom.min.js"></script> -->
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    /> -->
+    <!-- owl -->
+
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="index.html">
+                  <span>Home</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="product.html">
+                  <span>Living Room</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <span>Dining & Bar</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <span>Bedroom</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <span>Kitchen</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <span>Home Improvement</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <span>Custom</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <!-- breadcrumb -->
+  <section id="breadcrumb" class="mt-5">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Account</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Register</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <!-- form -->
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9">
+          <h1>REGISTER ACCOUNT</h1>
+          <P>If you already have an account with us, please login at the <a href="#">login page</a></P>
+          <form action="">
+            <fieldset>
+              <legend>YOUR PERSONAL DETAILS</legend>
+              <hr>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputFirstName" class="col-sm-2 col-form-label">First Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputFirstName" name="FirstName" value="" placeholder="First Name">
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputLastName" class="col-sm-2 col-form-label">Last Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputLastName" name="LastName" value="" placeholder="Last Name">
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail" name="email" value="" placeholder="Email">
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputTelephone" class="col-sm-2 col-form-label">Telephone</label>
+                <div class="col-sm-10">
+                  <input type="tel" class="form-control" id="inputTelephone" name="telephone" value="" placeholder="Telephone">
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputFax" class="col-sm-2 col-form-label">Fax</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="inputFax" name="fax" value="" placeholder="Fax">
+                </div>
+              </div>
+
+              <legend>YOUR ADDRESS</legend>
+              <hr>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputCompany" class="col-sm-2 col-form-label">Company</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputCompany" name="company" value="" placeholder="Company">
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputAddress_1" class="col-sm-2 col-form-label">Address 1</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputAddress_1" name="Address_1" value="" placeholder="Address 1">
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputAddress_2" class="col-sm-2 col-form-label">Address 2</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputAddress_2" name="Address_1" value="" placeholder="Address 2">
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputCity" class="col-sm-2 col-form-label">City</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputCity" name="City" value="" placeholder="City">
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputPostCode" class="col-sm-2 col-form-label">Post Code</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputPostCode" name="PostCode" value="" placeholder="Post Code">
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="selectCountry" class="col-sm-2 col-form-label">Country</label>
+                <div class="col-sm-10">
+                  <select id="selectCountry" class="form-select">
+                    <option>USA</option>
+                    <option>UAE</option>
+                    <option>IND</option>
+                    <option selected>BAN</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="selectState" class="col-sm-2 col-form-label">State</label>
+                <div class="col-sm-10">
+                  <select id="selectState" class="form-select">
+                    <option>CHI</option>
+                    <option>COX'S</option>
+                    <option>DHA</option>
+                  </select>
+                </div>
+              </div>
+
+              <legend>YOUR PASSWORD</legend>
+              <hr>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+              </div>
+
+              <div class="mb-3 row ms-4">
+                <label for="inputCPassword" class="col-sm-2 col-form-label">Confirm Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Confirm Password">
+                </div>
+              </div>
+
+              <legend>NEWSLETTER</legend>
+              <hr>
+              <span class="ms-4 me-5">Subscribe</span>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+
+              <div class="d-flex justify-content-end mt-4">
+                <button type="submit" class="btn btn-primary">CONTINUE</button>
+              </div>
+
+            </fieldset>
+          </form>
+        </div>
+        <div class="col-sm-3">
+          <h4>ACCOUNT</h4>
+          <hr style="height: 2px; opacity: 100%;">
+          <ul style="list-style-type: none;">
+            <li><a href="#">Login</a></li>
+            <hr>
+            <li><a href="#">Register</a></li>
+            <hr>
+            <li><a href="#">Forgotten Password</a></li>
+            <hr>
+            <li><a href="#">My Account</a></li>
+            <hr>
+            <li><a href="#">Address Book</a></li>
+            <hr>
+            <li><a href="#">Wish List</a></li>
+            <hr>
+            <li><a href="#">Order History</a></li>
+            <hr>
+            <li><a href="#">Downloads</a></li>
+            <hr>
+            <li><a href="#">Recurring payments</a></li>
+            <hr>
+            <li><a href="#">Reward Points</a></li>
+            <hr>
+            <li><a href="#">Returns</a></li>
+            <hr>
+            <li><a href="#">Transactions</a></li>
+            <hr>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- service provider -->
+  <section id="servi" class="mb-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="detail p-2">
+            <i class="fa fa-truck me-2 ms-2" aria-hidden="true"></i>
+            <span>FREE SHIPPING WORLDWIDE</span>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="detail p-2">
+            <i class="fa fa-headphones me-2 ms-2" aria-hidden="true"></i>
+            <span>24X7 CUSTOMER SUPPORT</span>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="detail p-2">
+            <i class="fa fa-share me-2 ms-2" aria-hidden="true"></i>
+            <span>RETURNS AND EXCHANGE</span>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="detail p-2">
+            <i class="fa fa-phone me-2 ms-2" aria-hidden="true"></i>
+            <span>HOTLINE +(408) 394-7557</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- brand owl -->
+<section id="brand-logo" class="pt-4 pb-4">
+  <div class="container">
+    <div class="owl-carousel owl-theme">
+          
+      <div class="item"><img src="img/b-logo1-130x50.png" alt="Owl Image"></div>
+      <div class="item"><img src="img/b-logo2-130x50.png" alt="Owl Image"></div>
+      <div class="item"><img src="img/b-logo3-130x50.png" alt="Owl Image"></div>
+      <div class="item"><img src="img/b-logo4-130x50.png" alt="Owl Image"></div>
+      <div class="item"><img src="img/b-logo5-130x50.png" alt="Owl Image"></div>
+      <div class="item"><img src="img/b-logo6-130x50.png" alt="Owl Image"></div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  $(document).ready(function() {
+ 
+    $('.owl-carousel').owlCarousel({
+      items: 4,
+      loop: true,
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:false
+  })
+});
+</script>
+
+
+
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white p-4">
+  <div class="container p-4">
+    <section class="footer-top">
+      <div class="row">
+        <div class="col-lg-2 mb-md-2">
+          <h5 class="text-uppercase mb-3">customer service</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Contact Us</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Returns</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Wish List</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Order History</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Site Map</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">My Account</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Extras</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Brands</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Gift Certificates</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Affiliates</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Blog</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Order History</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Specials</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 mb-4 mb-md-0">
+          <h5 class="text-uppercase">information</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">About Us</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Delivery Information</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Privacy Policy</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Terms & Conditions</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Suppliers</a>
+            </li>
+            <li class="mb-2"><span>&GT;</span>
+              <a href="#!">Our Store</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6 mb-4 mb-md-0 sign-up">
+          <h5 class="text-uppercase mb-3">sign up for emails</h5>
+
+          <form action="">
+            <div class="row">
+              <div class="col-md-5 col-12">
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example2" class="form-control" placeholder="Enter Your Email"/>
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  <i class="fas fa-square-full"></i>
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <h5 class="text-uppercase mb-3">Follow us</h5>
+          <div class="social-icon">
+            <a href="#" class="p-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="p-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="p-2"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="p-2"><i class="fas fa-wifi"></i></a>
+            <a href="#" class="p-2"><i class="fab fa-pinterest-square"></i></a>
+            <a href="#" class="p-2"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="p-2"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="col-lg-5">
+            <div class="row">
+              <div class="col-lg-4 d-flex payment">
+                <!-- <a href="#"><img alt="payment1" src="img/payment-1.png"></a>
+                <a href="#"><img alt="payment2" src="img/payment-2.png"></a>
+                <a href="#"><img alt="payment3" src="img/payment-3.png"></a>
+                <a href="#"><img alt="payment4" src="img/payment-4.png"></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</footer>
+
+
+<!-- Footer middle-->
+  <div class="footer-middle p-4">
+    <div class="container text-center">
+      <div class="row">
+        <div class="mb-3">
+          <a href="#"><img src="img/footer-logo.png" alt="logo"></a>
+        </div>  
+        <address>
+          <i class="fa fa-map-marker"></i>
+          <span>123 Main Street, Anytown, CA 12345 USA</span>
+          <i class="fa fa-mobile"></i>
+          <span> +(408) 394-7557</span>
+          <i class="fa fa-envelope"></i>
+          <span>abc@example.com</span>
+        </address>
+      </div>
+    </div>
+  </div>
+
+<!-- footer-copyright -->
+<div class="footer-bottom">
+  <div class="container p-3">
+    <div class="row">
+      <div class="col-sm-5 copyright">© 2016 Magikcommerce. All Rights Reserved.</div>
+      <div class="col-sm-7 company-links">
+        <ul class="links">
+          <li><a href="#" title="Magento Themes">Magento Themes</a></li>
+          <li><a href="#" title="Premium Themes">Premium Themes</a></li>
+          <li><a href="#" title="Responsive Themes">Responsive Themes</a></li>
+          <li><a href="#" title="Magento Extensions">Magento Extensions</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+</body>
+</html>
